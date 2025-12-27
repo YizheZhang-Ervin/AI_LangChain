@@ -1,0 +1,96 @@
+# Demos
+
+- mcp
+    - basic
+    - sse-streamablehttp
+    - open-webui接入mcp
+- rag
+    - embedding
+        - 向量化/相似度/切分
+    - vectorStore
+        - redisStack部署
+        - redisStack向量检索
+        - weaviate部署
+        - weaviate使用
+    - ragSystem
+        - 收集/处理/向量化/检索/提示词/启动
+        - 安装依赖
+- langchain
+    - model
+        - 创建/deepseek/openai/tongyi/ollama(见../ollama)
+    - ollama
+        - 对话/流式输出/批量调用/异步调用
+    - prompt
+        - base
+            - create
+                - 创建(构造方法/模板)/部分提示词/组合提示词
+            - methods
+                - invoke/format/partial
+        - chat
+            - create
+                - 创建(构造方法/message)
+            - methods
+                - format_messages/format_prompt
+            - instantiate
+                - 实例化(str/dict/message/BaseChatPromptTemplate/BaseMessagePromptTemplate)
+        - fewshot
+            - 提示模板/对话提示模板/示例选择
+        - msgplaceholder
+            - 消息占位符/隐式消息占位符
+        - hub
+    - parser
+        - 字符串/json/列表/xml/pydantic
+    - lcel
+        - 顺序链/分支链/串行链/并行链
+        - 函数转可执行链/参数传递/打印链图
+    - memory
+        - 内存记忆存储/内存LCEL/记忆窗口裁剪/redis存储
+        - 聊天机器人
+    - tool
+        - 内置工具/自定义工具(@tool/structedTool)/使用
+        - weatherTool
+            - 天气工具/使用
+    - agent
+        - 多工具并行调用/多工具串行调用
+        - 联网搜索问答/浏览器自动化/组合LCEL链实现浏览器自动化
+    - mcp
+        - 服务端/配置/客户端
+    - rag
+        - 文档加载器/自定义
+        - 文本分割器(文本/文档对象(自定义分隔符)/按标题分割Markdown文件)/自定义
+        - 向量数据库(见../vectorStore)
+        - example
+            - 智能客服系统(手机/处理/向量化/相似性检索/构建提示词/运行)
+    - vectorStore
+        - redis存储/检索
+        - VectorStoreRetriever
+        - MultiQueryRetriever
+        - 自定义Retriever
+    - langSmith
+        - 运行/callback
+    - langServe
+        - 创建chain/服务端/测试/客户端
+- langgraph
+    - agent-tool
+        - 自定义工具函数/添加多个工具函数 + 智能体
+        - 工具并联调用/工具串联调用
+        - 创建带搜索功能的Agent
+    - ecology
+        - 工具/启动/配置/命令行
+    - graph
+        - 创建/运行/pydantic/pydantic用于stateGraph
+        - 条件判断/循环语句/判断循环复合/子图
+    - HIL
+        - 人工干预/提示词+工具
+        - 聊天机器人(基本/HITL/时间回溯/提示词+工具)
+    - memory
+        - 预构建 Agent 实现记忆存储
+        - 聊天机器人
+        - 长期记忆+跨线程召回
+        - 消息裁剪
+        - 消息总结
+    - mcp
+        - 服务端/配置/客户端
+        - 天气助手MCP工具
+    - multiagent
+        - 员工外卖餐补助手

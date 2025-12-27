@@ -1,0 +1,1 @@
+docker run --name=weaviate -p 8080:8080 -p 50051:50051 -d -v /opt/docker/weaviate:/var/lib/weaviate cr.weaviate.io/semitechnologies/weaviate:1.32.6

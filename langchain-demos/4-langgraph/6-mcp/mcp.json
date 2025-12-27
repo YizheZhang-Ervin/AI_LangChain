@@ -1,0 +1,19 @@
+{
+    "mcpServers": {
+        "weather": {
+            "url": "http://127.0.0.1:8000/sse",
+            "transport": "sse"
+        },
+        "fetch": {
+            "command": "/root/.local/bin/uvx",
+            "args": [
+                "mcp-server-fetch"
+            ],
+            "transport": "stdio"
+        },
+        "get_weather": {
+            "url": "http://127.0.0.1:2024/mcp",
+            "transport": "streamable_http"
+        }
+    }
+}
