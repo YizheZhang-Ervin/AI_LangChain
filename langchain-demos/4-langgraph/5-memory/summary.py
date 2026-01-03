@@ -51,7 +51,7 @@ agent = create_react_agent(
 config = {"configurable": {"thread_id": "user-001"}}
 
 # 启动对话，发送用户自我介绍消息并获取模型响应
-msg1 = agent.invoke({"messages": [("user", "你好，我叫崔亮")]}, config)
+msg1 = agent.invoke({"messages": [("user", "你好，我叫XXX")]}, config)
 msg1["messages"][-1].pretty_print()
 
 # 定义用户兴趣列表

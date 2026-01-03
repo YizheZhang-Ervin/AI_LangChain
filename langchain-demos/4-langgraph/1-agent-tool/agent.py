@@ -1,5 +1,7 @@
 from langchain_ollama import ChatOllama
 from langgraph.prebuilt import create_react_agent
+
+# 即tool.py中内容
 from tools import get_weather
 
 # 初始化本地大语言模型，配置基础URL、模型名称和推理模式

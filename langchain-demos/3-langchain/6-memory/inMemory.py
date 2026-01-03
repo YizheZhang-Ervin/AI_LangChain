@@ -9,7 +9,7 @@ llm = ChatOllama(model="qwen3:14b", reasoning=False)
 history = InMemoryChatMessageHistory()
 
 # 添加用户消息到聊天历史记录
-history.add_user_message("我叫崔亮，我的爱好是学习")
+history.add_user_message("我叫XXX，我的爱好是学习")
 
 # 调用语言模型处理聊天历史中的消息
 ai_message = llm.invoke(history.messages)

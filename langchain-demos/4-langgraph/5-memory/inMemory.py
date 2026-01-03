@@ -18,7 +18,7 @@ agent = create_react_agent(model=llm, tools=tools, checkpointer=checkpointer)
 # 多轮对话配置，同一 thread_id 即同一会话
 config = {"configurable": {"thread_id": "user-001"}}
 
-msg1 = agent.invoke({"messages": [("user", "你好，我叫崔亮，喜欢学习。")]}, config)
+msg1 = agent.invoke({"messages": [("user", "你好，我叫XXX，喜欢学习。")]}, config)
 msg1["messages"][-1].pretty_print()
 
 # 6. 第二轮（继续同一 thread）

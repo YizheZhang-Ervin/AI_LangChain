@@ -110,7 +110,7 @@ graph.get_graph().draw_png('./graph.png')
 
 # 第一次交互测试：记录用户基本信息
 config1 = {"configurable": {"thread_id": "1", "user_id": "1"}}
-msg1 = graph.invoke({"messages": [{"role": "user", "content": "我叫崔亮，喜欢学习。"}]}, config1)
+msg1 = graph.invoke({"messages": [{"role": "user", "content": "我叫XXX，喜欢学习。"}]}, config1)
 print("第一次回复：")
 msg1["messages"][-1].pretty_print()
 

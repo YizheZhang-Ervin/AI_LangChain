@@ -1,5 +1,6 @@
 # Demos
 
+## 1. 目录结构
 - mcp
     - basic
     - sse
@@ -40,7 +41,7 @@
             - 消息占位符/隐式消息占位符
         - hub
     - parser
-        - 字符串/json/列表/xml/pydantic
+        - 字符串/json/列表/xml/pydantic/自定义pydantic
     - lcel
         - 顺序链/分支链/串行链/并行链
         - 函数转可执行链/参数传递/打印链图
@@ -95,3 +96,11 @@
         - 天气助手MCP工具
     - multiagent
         - 员工外卖餐补助手
+
+
+## 2. 自定义修改部分
+1. 自定义pydantic
+2. 字符串替换
+3. 注释
+4. 文件名大小写
+5. 合并create+run

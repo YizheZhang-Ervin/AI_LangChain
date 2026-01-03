@@ -11,6 +11,7 @@
             ],
             "transport": "stdio"
         },
+        // agent封装为mcp
         "get_weather": {
             "url": "http://127.0.0.1:2024/mcp",
             "transport": "streamable_http"

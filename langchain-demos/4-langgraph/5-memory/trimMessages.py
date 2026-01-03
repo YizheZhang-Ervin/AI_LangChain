@@ -52,7 +52,7 @@ agent = create_react_agent(
     checkpointer=checkpointer,
 )
 config = {"configurable": {"thread_id": "user-001"}}
-msg1 = agent.invoke({"messages": [("user", "你好，我叫崔亮")]}, config)
+msg1 = agent.invoke({"messages": [("user", "你好，我叫XXX")]}, config)
 msg1["messages"][-1].pretty_print()
 like_list = ['唱', '跳', 'rap', '篮球']
 for i in like_list:

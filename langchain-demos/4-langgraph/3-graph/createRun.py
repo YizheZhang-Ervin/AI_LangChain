@@ -48,3 +48,9 @@ print(builder.nodes)
 print(graph.get_graph().print_ascii())
 
 # 除了控制台打印流程图外，也可以生成更加美观的Mermaid 代码，通过processon 编辑器查看
+
+# 定义一个初始状态字典，包含键值对"x": 5
+initial_state={"x": 5}
+# 调用graph对象的invoke方法，传入初始状态，执行图计算流程
+result= graph.invoke(initial_state)
+print(f"最后的结果是:{result}")

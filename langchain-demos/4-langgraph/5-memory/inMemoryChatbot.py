@@ -54,7 +54,7 @@ graph.get_graph().draw_png('./graph.png')
 config = {"configurable": {"thread_id": "chat-1"}}
 
 # 第一次对话：发送初始消息
-msg1 = graph.invoke({"messages": ["你好，我叫崔亮，喜欢学习。"]}, config=config)
+msg1 = graph.invoke({"messages": ["你好，我叫XXX，喜欢学习。"]}, config=config)
 msg1["messages"][-1].pretty_print()
 
 # 第二次对话：基于上下文询问用户信息

@@ -28,5 +28,5 @@ runnable = RunnableWithMessageHistory(
 history.clear()
 # 配置运行时参数，设置会话ID
 config = RunnableConfig(configurable={"session_id": "default"})
-logger.info(runnable.invoke({"input": "我叫崔亮，我爱好学习。"}, config))
+logger.info(runnable.invoke({"input": "我叫XXX，我爱好学习。"}, config))
 logger.info(runnable.invoke({"input": "我叫什么？我的爱好是什么？"}, config))
