@@ -1,18 +1,21 @@
 # LangGraph
 
-## 1 Doc
+## 0 Doc
 ```sh
 https://docs.langchain.com/oss/python/langgraph/overview
 ```
 
-## 2 Basic
+## 1 Basic
 ```sh
 # install
 pip install -U langgraph
 pip install -U langchain
+
+# test api
+pip install langgraph-sdk
 ```
 
-## 3 CLI【TODO】
+## 2 CLI
 ```sh
 # install
 pip install -U "langgraph-cli[inmem]"
@@ -36,33 +39,55 @@ langgraph dev --debug-port 5678
 # https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024
 ```
 
-## 4 Test
+## 3 Thinking in LangGraph
 ```sh
-# test api
-pip install langgraph-sdk
+- LLM
+- Data
+- Action
+- User Input
 ```
 
-## 5 Thinking in LangGraph【TODO】
+## 4 Workflows & Agents
 ```sh
-
+- Augmentations
+- Prompt chaining
+- Parallelization
+- Routing
+- Orchestrator-worker
+- Evaluator-optimizer
+- Agents
 ```
 
-## 6 Workflows & Agents【TODO】
+## 5 Capabilities
 ```sh
-
+- Persistence
+    - Threads,checkpoints,memoryStore,checkpointer libraries
+- Durable execution
+- Streaming
+- Interrupts
+- Time travel
+- Memory
+- Subgraphs
 ```
 
-## 7 Capabilities【TODO】
+## 6 Production
 ```sh
-
+- pytest
+- langsmith studio
+- agent chat UI
+- langsmith deployment
+- langsmith observability
 ```
 
-## 8 Production【TODO】
+## 7 API
 ```sh
-
+- Graph API
+- Functional API
+- Runtime
 ```
 
-## 9 API【TODO】
+## 8 Ollama
 ```sh
-
+- ChatOllama
+- OllamaEmbeddings
 ```
