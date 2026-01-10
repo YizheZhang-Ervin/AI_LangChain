@@ -21,7 +21,7 @@ result = model.invoke(prompt)
 logger.info(f"模型原始输出:\n{result}")
 
 # 创建字符串输出解析器，用于处理模型输出
-parser = StrOutputParser ()
+parser = StrOutputParser()
 
 # 解析模型输出为结构化结果并记录日志
 response = parser.invoke(result)

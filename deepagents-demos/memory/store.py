@@ -1,0 +1,28 @@
+# InMemoryStore (development)
+from langgraph.store.memory import InMemoryStore
+
+store = InMemoryStore()
+agent = create_deep_agent(
+    store=store,
+    backend=lambda rt: CompositeBackend(
+        default=StateBackend(rt),
+        routes={"/memories/": StoreBackend(rt)}
+    )
+)
+
+# PostgresStore (production)
+from langgraph.store.postgres import PostgresStore
+import os
+
+# Use PostgresStore.from_conn_string as a context manager
+store_ctx = PostgresStore.from_conn_string(os.environ["DATABASE_URL"])
+store = store_ctx.__enter__()
+store.setup()
+
+agent = create_deep_agent(
+    store=store,
+    backend=lambda rt: CompositeBackend(
+        default=StateBackend(rt),
+        routes={"/memories/": StoreBackend(rt)}
+    )
+)

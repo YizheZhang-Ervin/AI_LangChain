@@ -205,7 +205,7 @@ async def main():
         if len(sys.argv) < 2:
             logger.error("请提供 MCP server 脚本路径，例如：python client.py server.py")
             return
-        await client.connect_to_server('server.py')
+        await client.connect_to_server('mcp-server.py')
         await client.chat_loop()
     finally:
         # 确保在任何情况下都能正确清理客户端资源
