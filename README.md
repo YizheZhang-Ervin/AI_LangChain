@@ -3,9 +3,9 @@
 ## projects
 1. langchain
 - 博客
-    - doc-langchain (文档)
+    - doc-langchain (文档) -> 智能客服交互系统
     - doc-mcp (文档)
-    - doc-rag (文档)
+    - doc-rag (文档) -> 智能问答助手
 - 官方：
     - doc-langchain (文档)
 
