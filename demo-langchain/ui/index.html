@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1.0">
+        <title>canvas实现视频播放</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body class="whole">
+        <canvas id="canvas" width="720"></canvas>
+        <section class="right" id="right">
+            <div class="cyber-chat">
+                <!-- 聊天标题栏 -->
+                <div class="chat-header">
+                    <h2>智能体 · Atlas</h2>
+                </div>
+
+                <!-- 聊天内容区域 -->
+                <div class="chat-messages" id="chatMessages">
+                    <!-- 初始欢迎消息 -->
+                    <div class="message bot">
+                        <p>欢迎来到Atlas空间 🕹️ 请输入你的消息...</p>
+                    </div>
+                </div>
+
+                <!-- 输入区域 -->
+                <div class="chat-input">
+                    <textarea id="messageInput" placeholder="输入消息 (按回车发送)..."></textarea>
+                    <button id="sendBtn">发送</button>
+                </div>
+            </div>
+        </section>
+        <script src="./index.js"></script>
+    </body>
+
+</html>
