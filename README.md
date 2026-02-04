@@ -19,6 +19,9 @@
 4. langchain4j
 - github: examples-langchain4j (案例)
 
+5. springAI
+- github: example-spring-ai (案例)
+
 5. 其他
 - demo-langchain (自用)
 - demo-langchain4j (自用)

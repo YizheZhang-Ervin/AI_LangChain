@@ -1,0 +1,51 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+docs/.DS_Store
+.DS_Store
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+application-deepseek.properties
+/spring-ai-chat/spring-ai-chat-deepseek/src/main/resources/application-deepseek.properties
+/spring-ai-chat/spring-ai-chat-doubao/src/main/resources/application-doubao.properties
+/spring-ai-chat/spring-ai-chat-openai/src/main/resources/application-openai.properties
+/spring-ai-chat/spring-ai-chat-qwen/src/main/resources/application-qwen.properties
+/spring-ai-chat/spring-ai-chat-multi/src/main/resources/application-multi-chat.properties
+/mvnw.cmd
+/mvnw
+/.mvn/
+/src/main/resources/application-multi-chat.properties
+/spring-ai-embedding/src/main/resources/application-doubao-embedding.properties
+/spring-ai-mcp/mcp-client/src/main/resources/application-mcp-client-local.yaml
+/spring-ai-rag/src/main/resources/application-qwen.properties
+/spring-ai-evaluation/src/main/resources/application-evaluation.properties
+/spring-ai-embedding/spring-ai-embedding-milvus/src/main/resources/application-doubao-embedding.properties
+/spring-ai-vector/spring-ai-vector-milvus/src/main/resources/application-doubao-embedding.properties

@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: mcp-client
+  profiles:
+    active: mcp-client
+  ai:
+    openai:
+      api-key: ${spring.ai.openai.api-key}
+      chat:
+#          base-url: https://api.deepseek.com
+        base-url: https://dashscope.aliyuncs.com/compatible-mode
+#          completions-path: /v1/chat/completions
+        completions-path: /v1/chat/completions
+        options:
+#            model: deepseek-chat
+          model: qwen-plus
