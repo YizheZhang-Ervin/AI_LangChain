@@ -1,0 +1,16 @@
+# 核心：确保Python文件被Linguist正常检测并统计
+*.py linguist-detectable=true
+
+# 关键：将Java文件强制标记为Python（解决Java行数占优的问题）
+*.java linguist-language=Python
+
+# 忽略配置/文档类文件（不计入语言统计）
+*.md linguist-ignore=true
+*.yml linguist-ignore=true
+*.yaml linguist-ignore=true
+*.ini linguist-ignore=true
+*.txt linguist-ignore=true
+# 忽略二进制文件
+*.png linguist-ignore=true
+*.jpg linguist-ignore=true
+*.zip linguist-ignore=true
