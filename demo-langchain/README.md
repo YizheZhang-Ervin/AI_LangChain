@@ -49,13 +49,3 @@ cd xxenv/Scripts
 activate
 pip install --no-index --find-links=./python_packages -r requirements.txt
 ```
-
-## 技术栈
-```sh
-- 前端：gradio界面
-- AI: 文字语音互转
-- 模型：ollama小模型
-- 流程编排：多agent/langgraph/Memory/HIL
-- 数据获取：RAG(llamaIndex+知识库+neo4j知识图谱) / Mcp(tools+DB) / web自动化抓取
-- 后端：fastapi
-```
